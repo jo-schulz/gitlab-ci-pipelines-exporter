@@ -20,13 +20,13 @@
     {
       customType: 'regex',
       managerFilePatterns: [
-        '/examples/quickstart/docker-compose\\.ya?ml$/',
+        'examples/quickstart/docker-compose\\.ya?ml$',
       ],
       matchStrings: [
         'image:\\s+(?<depName>[^:]+):(?<currentValue>[^\\s]+)',
       ],
       datasourceTemplate: 'docker',
-    },
+    }
   ],
   packageRules: [
     {
